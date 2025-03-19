@@ -8,6 +8,8 @@ const fetchTasks = async () => {
   return tasks;
 }
 
+const baseUrl = "http://localhost:3333";
+
 const addTask = async (event) => {
   event.preventDefault();
 
