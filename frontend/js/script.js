@@ -2,7 +2,7 @@ const tbody = document.querySelector('tbody');
 const addForm = document.querySelector('.add-form');
 const inputTask = document.querySelector('.input-task');
 
-const baseUrl = "http://localhost:3333";
+
 
 const fetchTasks = async () => {
   const response = await fetch('http://localhost:3333/tasks')
